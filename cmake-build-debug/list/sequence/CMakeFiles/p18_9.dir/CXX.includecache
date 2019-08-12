@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yuzilin/data_structure/STL/sequence.cpp
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
+-
+
+/Users/yuzilin/data_structure/list/sequence/p18_9.cpp
+../../STL/sequence.cpp
+/Users/yuzilin/data_structure/STL/sequence.cpp
+algorithm
+/Users/yuzilin/data_structure/list/sequence/algorithm
+

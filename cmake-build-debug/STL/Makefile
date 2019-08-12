@@ -125,6 +125,33 @@ STL/fast:
 	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f STL/CMakeFiles/STL.dir/build.make STL/CMakeFiles/STL.dir/build
 .PHONY : STL/fast
 
+link_list.o: link_list.cpp.o
+
+.PHONY : link_list.o
+
+# target to build an object file
+link_list.cpp.o:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f STL/CMakeFiles/STL.dir/build.make STL/CMakeFiles/STL.dir/link_list.cpp.o
+.PHONY : link_list.cpp.o
+
+link_list.i: link_list.cpp.i
+
+.PHONY : link_list.i
+
+# target to preprocess a source file
+link_list.cpp.i:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f STL/CMakeFiles/STL.dir/build.make STL/CMakeFiles/STL.dir/link_list.cpp.i
+.PHONY : link_list.cpp.i
+
+link_list.s: link_list.cpp.s
+
+.PHONY : link_list.s
+
+# target to generate assembly for a file
+link_list.cpp.s:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f STL/CMakeFiles/STL.dir/build.make STL/CMakeFiles/STL.dir/link_list.cpp.s
+.PHONY : link_list.cpp.s
+
 sequence.o: sequence.cpp.o
 
 .PHONY : sequence.o
@@ -161,6 +188,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... STL"
+	@echo "... link_list.o"
+	@echo "... link_list.i"
+	@echo "... link_list.s"
 	@echo "... sequence.o"
 	@echo "... sequence.i"
 	@echo "... sequence.s"

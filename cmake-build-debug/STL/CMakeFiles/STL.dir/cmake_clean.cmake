@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/STL.dir/link_list.cpp.o"
   "CMakeFiles/STL.dir/sequence.cpp.o"
   "libSTL.pdb"
   "libSTL.a"

@@ -86,36 +86,36 @@ list/preinstall: list/sequence/preinstall
 # Directory level rules for directory list/sequence
 
 # Convenience name for "all" pass in the directory.
-list/sequence/all: list/sequence/CMakeFiles/p19_12.dir/all
-list/sequence/all: list/sequence/CMakeFiles/p19_13.dir/all
-list/sequence/all: list/sequence/CMakeFiles/p19_7.dir/all
-list/sequence/all: list/sequence/CMakeFiles/p19_8.dir/all
-list/sequence/all: list/sequence/CMakeFiles/p19_10.dir/all
-list/sequence/all: list/sequence/CMakeFiles/p19_9.dir/all
+list/sequence/all: list/sequence/CMakeFiles/p18_13.dir/all
+list/sequence/all: list/sequence/CMakeFiles/p18_12.dir/all
+list/sequence/all: list/sequence/CMakeFiles/p18_11.dir/all
+list/sequence/all: list/sequence/CMakeFiles/p18_10.dir/all
+list/sequence/all: list/sequence/CMakeFiles/p18_7.dir/all
 list/sequence/all: list/sequence/CMakeFiles/sequence.dir/all
 list/sequence/all: list/sequence/CMakeFiles/p18_5.dir/all
-list/sequence/all: list/sequence/CMakeFiles/p19_11.dir/all
+list/sequence/all: list/sequence/CMakeFiles/p18_8.dir/all
 list/sequence/all: list/sequence/CMakeFiles/p18_2.dir/all
-list/sequence/all: list/sequence/CMakeFiles/p19_6.dir/all
 list/sequence/all: list/sequence/CMakeFiles/p18_4.dir/all
+list/sequence/all: list/sequence/CMakeFiles/p18_6.dir/all
 list/sequence/all: list/sequence/CMakeFiles/p18_3.dir/all
+list/sequence/all: list/sequence/CMakeFiles/p18_9.dir/all
 
 .PHONY : list/sequence/all
 
 # Convenience name for "clean" pass in the directory.
-list/sequence/clean: list/sequence/CMakeFiles/p19_12.dir/clean
-list/sequence/clean: list/sequence/CMakeFiles/p19_13.dir/clean
-list/sequence/clean: list/sequence/CMakeFiles/p19_7.dir/clean
-list/sequence/clean: list/sequence/CMakeFiles/p19_8.dir/clean
-list/sequence/clean: list/sequence/CMakeFiles/p19_10.dir/clean
-list/sequence/clean: list/sequence/CMakeFiles/p19_9.dir/clean
+list/sequence/clean: list/sequence/CMakeFiles/p18_13.dir/clean
+list/sequence/clean: list/sequence/CMakeFiles/p18_12.dir/clean
+list/sequence/clean: list/sequence/CMakeFiles/p18_11.dir/clean
+list/sequence/clean: list/sequence/CMakeFiles/p18_10.dir/clean
+list/sequence/clean: list/sequence/CMakeFiles/p18_7.dir/clean
 list/sequence/clean: list/sequence/CMakeFiles/sequence.dir/clean
 list/sequence/clean: list/sequence/CMakeFiles/p18_5.dir/clean
-list/sequence/clean: list/sequence/CMakeFiles/p19_11.dir/clean
+list/sequence/clean: list/sequence/CMakeFiles/p18_8.dir/clean
 list/sequence/clean: list/sequence/CMakeFiles/p18_2.dir/clean
-list/sequence/clean: list/sequence/CMakeFiles/p19_6.dir/clean
 list/sequence/clean: list/sequence/CMakeFiles/p18_4.dir/clean
+list/sequence/clean: list/sequence/CMakeFiles/p18_6.dir/clean
 list/sequence/clean: list/sequence/CMakeFiles/p18_3.dir/clean
+list/sequence/clean: list/sequence/CMakeFiles/p18_9.dir/clean
 
 .PHONY : list/sequence/clean
 
@@ -125,224 +125,187 @@ list/sequence/preinstall:
 .PHONY : list/sequence/preinstall
 
 #=============================================================================
-# Target rules for target list/sequence/CMakeFiles/p19_12.dir
+# Target rules for target list/sequence/CMakeFiles/p18_13.dir
 
 # All Build rule for target.
-list/sequence/CMakeFiles/p19_12.dir/all:
-	$(MAKE) -f list/sequence/CMakeFiles/p19_12.dir/build.make list/sequence/CMakeFiles/p19_12.dir/depend
-	$(MAKE) -f list/sequence/CMakeFiles/p19_12.dir/build.make list/sequence/CMakeFiles/p19_12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target p19_12"
-.PHONY : list/sequence/CMakeFiles/p19_12.dir/all
+list/sequence/CMakeFiles/p18_13.dir/all:
+	$(MAKE) -f list/sequence/CMakeFiles/p18_13.dir/build.make list/sequence/CMakeFiles/p18_13.dir/depend
+	$(MAKE) -f list/sequence/CMakeFiles/p18_13.dir/build.make list/sequence/CMakeFiles/p18_13.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target p18_13"
+.PHONY : list/sequence/CMakeFiles/p18_13.dir/all
 
 # Include target in all.
-all: list/sequence/CMakeFiles/p19_12.dir/all
+all: list/sequence/CMakeFiles/p18_13.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-list/sequence/CMakeFiles/p19_12.dir/rule: cmake_check_build_system
+list/sequence/CMakeFiles/p18_13.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p19_12.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_13.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 0
-.PHONY : list/sequence/CMakeFiles/p19_12.dir/rule
+.PHONY : list/sequence/CMakeFiles/p18_13.dir/rule
 
 # Convenience name for target.
-p19_12: list/sequence/CMakeFiles/p19_12.dir/rule
+p18_13: list/sequence/CMakeFiles/p18_13.dir/rule
 
-.PHONY : p19_12
-
-# clean rule for target.
-list/sequence/CMakeFiles/p19_12.dir/clean:
-	$(MAKE) -f list/sequence/CMakeFiles/p19_12.dir/build.make list/sequence/CMakeFiles/p19_12.dir/clean
-.PHONY : list/sequence/CMakeFiles/p19_12.dir/clean
+.PHONY : p18_13
 
 # clean rule for target.
-clean: list/sequence/CMakeFiles/p19_12.dir/clean
+list/sequence/CMakeFiles/p18_13.dir/clean:
+	$(MAKE) -f list/sequence/CMakeFiles/p18_13.dir/build.make list/sequence/CMakeFiles/p18_13.dir/clean
+.PHONY : list/sequence/CMakeFiles/p18_13.dir/clean
+
+# clean rule for target.
+clean: list/sequence/CMakeFiles/p18_13.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target list/sequence/CMakeFiles/p19_13.dir
+# Target rules for target list/sequence/CMakeFiles/p18_12.dir
 
 # All Build rule for target.
-list/sequence/CMakeFiles/p19_13.dir/all:
-	$(MAKE) -f list/sequence/CMakeFiles/p19_13.dir/build.make list/sequence/CMakeFiles/p19_13.dir/depend
-	$(MAKE) -f list/sequence/CMakeFiles/p19_13.dir/build.make list/sequence/CMakeFiles/p19_13.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target p19_13"
-.PHONY : list/sequence/CMakeFiles/p19_13.dir/all
+list/sequence/CMakeFiles/p18_12.dir/all:
+	$(MAKE) -f list/sequence/CMakeFiles/p18_12.dir/build.make list/sequence/CMakeFiles/p18_12.dir/depend
+	$(MAKE) -f list/sequence/CMakeFiles/p18_12.dir/build.make list/sequence/CMakeFiles/p18_12.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target p18_12"
+.PHONY : list/sequence/CMakeFiles/p18_12.dir/all
 
 # Include target in all.
-all: list/sequence/CMakeFiles/p19_13.dir/all
+all: list/sequence/CMakeFiles/p18_12.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-list/sequence/CMakeFiles/p19_13.dir/rule: cmake_check_build_system
+list/sequence/CMakeFiles/p18_12.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p19_13.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_12.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 0
-.PHONY : list/sequence/CMakeFiles/p19_13.dir/rule
+.PHONY : list/sequence/CMakeFiles/p18_12.dir/rule
 
 # Convenience name for target.
-p19_13: list/sequence/CMakeFiles/p19_13.dir/rule
+p18_12: list/sequence/CMakeFiles/p18_12.dir/rule
 
-.PHONY : p19_13
-
-# clean rule for target.
-list/sequence/CMakeFiles/p19_13.dir/clean:
-	$(MAKE) -f list/sequence/CMakeFiles/p19_13.dir/build.make list/sequence/CMakeFiles/p19_13.dir/clean
-.PHONY : list/sequence/CMakeFiles/p19_13.dir/clean
+.PHONY : p18_12
 
 # clean rule for target.
-clean: list/sequence/CMakeFiles/p19_13.dir/clean
+list/sequence/CMakeFiles/p18_12.dir/clean:
+	$(MAKE) -f list/sequence/CMakeFiles/p18_12.dir/build.make list/sequence/CMakeFiles/p18_12.dir/clean
+.PHONY : list/sequence/CMakeFiles/p18_12.dir/clean
+
+# clean rule for target.
+clean: list/sequence/CMakeFiles/p18_12.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target list/sequence/CMakeFiles/p19_7.dir
+# Target rules for target list/sequence/CMakeFiles/p18_11.dir
 
 # All Build rule for target.
-list/sequence/CMakeFiles/p19_7.dir/all:
-	$(MAKE) -f list/sequence/CMakeFiles/p19_7.dir/build.make list/sequence/CMakeFiles/p19_7.dir/depend
-	$(MAKE) -f list/sequence/CMakeFiles/p19_7.dir/build.make list/sequence/CMakeFiles/p19_7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target p19_7"
-.PHONY : list/sequence/CMakeFiles/p19_7.dir/all
+list/sequence/CMakeFiles/p18_11.dir/all:
+	$(MAKE) -f list/sequence/CMakeFiles/p18_11.dir/build.make list/sequence/CMakeFiles/p18_11.dir/depend
+	$(MAKE) -f list/sequence/CMakeFiles/p18_11.dir/build.make list/sequence/CMakeFiles/p18_11.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target p18_11"
+.PHONY : list/sequence/CMakeFiles/p18_11.dir/all
 
 # Include target in all.
-all: list/sequence/CMakeFiles/p19_7.dir/all
+all: list/sequence/CMakeFiles/p18_11.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-list/sequence/CMakeFiles/p19_7.dir/rule: cmake_check_build_system
+list/sequence/CMakeFiles/p18_11.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p19_7.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_11.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 0
-.PHONY : list/sequence/CMakeFiles/p19_7.dir/rule
+.PHONY : list/sequence/CMakeFiles/p18_11.dir/rule
 
 # Convenience name for target.
-p19_7: list/sequence/CMakeFiles/p19_7.dir/rule
+p18_11: list/sequence/CMakeFiles/p18_11.dir/rule
 
-.PHONY : p19_7
-
-# clean rule for target.
-list/sequence/CMakeFiles/p19_7.dir/clean:
-	$(MAKE) -f list/sequence/CMakeFiles/p19_7.dir/build.make list/sequence/CMakeFiles/p19_7.dir/clean
-.PHONY : list/sequence/CMakeFiles/p19_7.dir/clean
+.PHONY : p18_11
 
 # clean rule for target.
-clean: list/sequence/CMakeFiles/p19_7.dir/clean
+list/sequence/CMakeFiles/p18_11.dir/clean:
+	$(MAKE) -f list/sequence/CMakeFiles/p18_11.dir/build.make list/sequence/CMakeFiles/p18_11.dir/clean
+.PHONY : list/sequence/CMakeFiles/p18_11.dir/clean
+
+# clean rule for target.
+clean: list/sequence/CMakeFiles/p18_11.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target list/sequence/CMakeFiles/p19_8.dir
+# Target rules for target list/sequence/CMakeFiles/p18_10.dir
 
 # All Build rule for target.
-list/sequence/CMakeFiles/p19_8.dir/all:
-	$(MAKE) -f list/sequence/CMakeFiles/p19_8.dir/build.make list/sequence/CMakeFiles/p19_8.dir/depend
-	$(MAKE) -f list/sequence/CMakeFiles/p19_8.dir/build.make list/sequence/CMakeFiles/p19_8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target p19_8"
-.PHONY : list/sequence/CMakeFiles/p19_8.dir/all
+list/sequence/CMakeFiles/p18_10.dir/all:
+	$(MAKE) -f list/sequence/CMakeFiles/p18_10.dir/build.make list/sequence/CMakeFiles/p18_10.dir/depend
+	$(MAKE) -f list/sequence/CMakeFiles/p18_10.dir/build.make list/sequence/CMakeFiles/p18_10.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target p18_10"
+.PHONY : list/sequence/CMakeFiles/p18_10.dir/all
 
 # Include target in all.
-all: list/sequence/CMakeFiles/p19_8.dir/all
+all: list/sequence/CMakeFiles/p18_10.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-list/sequence/CMakeFiles/p19_8.dir/rule: cmake_check_build_system
+list/sequence/CMakeFiles/p18_10.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p19_8.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_10.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 0
-.PHONY : list/sequence/CMakeFiles/p19_8.dir/rule
+.PHONY : list/sequence/CMakeFiles/p18_10.dir/rule
 
 # Convenience name for target.
-p19_8: list/sequence/CMakeFiles/p19_8.dir/rule
+p18_10: list/sequence/CMakeFiles/p18_10.dir/rule
 
-.PHONY : p19_8
-
-# clean rule for target.
-list/sequence/CMakeFiles/p19_8.dir/clean:
-	$(MAKE) -f list/sequence/CMakeFiles/p19_8.dir/build.make list/sequence/CMakeFiles/p19_8.dir/clean
-.PHONY : list/sequence/CMakeFiles/p19_8.dir/clean
+.PHONY : p18_10
 
 # clean rule for target.
-clean: list/sequence/CMakeFiles/p19_8.dir/clean
+list/sequence/CMakeFiles/p18_10.dir/clean:
+	$(MAKE) -f list/sequence/CMakeFiles/p18_10.dir/build.make list/sequence/CMakeFiles/p18_10.dir/clean
+.PHONY : list/sequence/CMakeFiles/p18_10.dir/clean
+
+# clean rule for target.
+clean: list/sequence/CMakeFiles/p18_10.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target list/sequence/CMakeFiles/p19_10.dir
+# Target rules for target list/sequence/CMakeFiles/p18_7.dir
 
 # All Build rule for target.
-list/sequence/CMakeFiles/p19_10.dir/all:
-	$(MAKE) -f list/sequence/CMakeFiles/p19_10.dir/build.make list/sequence/CMakeFiles/p19_10.dir/depend
-	$(MAKE) -f list/sequence/CMakeFiles/p19_10.dir/build.make list/sequence/CMakeFiles/p19_10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target p19_10"
-.PHONY : list/sequence/CMakeFiles/p19_10.dir/all
+list/sequence/CMakeFiles/p18_7.dir/all:
+	$(MAKE) -f list/sequence/CMakeFiles/p18_7.dir/build.make list/sequence/CMakeFiles/p18_7.dir/depend
+	$(MAKE) -f list/sequence/CMakeFiles/p18_7.dir/build.make list/sequence/CMakeFiles/p18_7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target p18_7"
+.PHONY : list/sequence/CMakeFiles/p18_7.dir/all
 
 # Include target in all.
-all: list/sequence/CMakeFiles/p19_10.dir/all
+all: list/sequence/CMakeFiles/p18_7.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-list/sequence/CMakeFiles/p19_10.dir/rule: cmake_check_build_system
+list/sequence/CMakeFiles/p18_7.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p19_10.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_7.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 0
-.PHONY : list/sequence/CMakeFiles/p19_10.dir/rule
+.PHONY : list/sequence/CMakeFiles/p18_7.dir/rule
 
 # Convenience name for target.
-p19_10: list/sequence/CMakeFiles/p19_10.dir/rule
+p18_7: list/sequence/CMakeFiles/p18_7.dir/rule
 
-.PHONY : p19_10
-
-# clean rule for target.
-list/sequence/CMakeFiles/p19_10.dir/clean:
-	$(MAKE) -f list/sequence/CMakeFiles/p19_10.dir/build.make list/sequence/CMakeFiles/p19_10.dir/clean
-.PHONY : list/sequence/CMakeFiles/p19_10.dir/clean
+.PHONY : p18_7
 
 # clean rule for target.
-clean: list/sequence/CMakeFiles/p19_10.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target list/sequence/CMakeFiles/p19_9.dir
-
-# All Build rule for target.
-list/sequence/CMakeFiles/p19_9.dir/all:
-	$(MAKE) -f list/sequence/CMakeFiles/p19_9.dir/build.make list/sequence/CMakeFiles/p19_9.dir/depend
-	$(MAKE) -f list/sequence/CMakeFiles/p19_9.dir/build.make list/sequence/CMakeFiles/p19_9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target p19_9"
-.PHONY : list/sequence/CMakeFiles/p19_9.dir/all
-
-# Include target in all.
-all: list/sequence/CMakeFiles/p19_9.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-list/sequence/CMakeFiles/p19_9.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p19_9.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 0
-.PHONY : list/sequence/CMakeFiles/p19_9.dir/rule
-
-# Convenience name for target.
-p19_9: list/sequence/CMakeFiles/p19_9.dir/rule
-
-.PHONY : p19_9
+list/sequence/CMakeFiles/p18_7.dir/clean:
+	$(MAKE) -f list/sequence/CMakeFiles/p18_7.dir/build.make list/sequence/CMakeFiles/p18_7.dir/clean
+.PHONY : list/sequence/CMakeFiles/p18_7.dir/clean
 
 # clean rule for target.
-list/sequence/CMakeFiles/p19_9.dir/clean:
-	$(MAKE) -f list/sequence/CMakeFiles/p19_9.dir/build.make list/sequence/CMakeFiles/p19_9.dir/clean
-.PHONY : list/sequence/CMakeFiles/p19_9.dir/clean
-
-# clean rule for target.
-clean: list/sequence/CMakeFiles/p19_9.dir/clean
+clean: list/sequence/CMakeFiles/p18_7.dir/clean
 
 .PHONY : clean
 
@@ -353,7 +316,7 @@ clean: list/sequence/CMakeFiles/p19_9.dir/clean
 list/sequence/CMakeFiles/sequence.dir/all: STL/CMakeFiles/STL.dir/all
 	$(MAKE) -f list/sequence/CMakeFiles/sequence.dir/build.make list/sequence/CMakeFiles/sequence.dir/depend
 	$(MAKE) -f list/sequence/CMakeFiles/sequence.dir/build.make list/sequence/CMakeFiles/sequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target sequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target sequence"
 .PHONY : list/sequence/CMakeFiles/sequence.dir/all
 
 # Include target in all.
@@ -363,7 +326,7 @@ all: list/sequence/CMakeFiles/sequence.dir/all
 
 # Build rule for subdir invocation for target.
 list/sequence/CMakeFiles/sequence.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/sequence.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 0
 .PHONY : list/sequence/CMakeFiles/sequence.dir/rule
@@ -390,7 +353,7 @@ clean: list/sequence/CMakeFiles/sequence.dir/clean
 list/sequence/CMakeFiles/p18_5.dir/all:
 	$(MAKE) -f list/sequence/CMakeFiles/p18_5.dir/build.make list/sequence/CMakeFiles/p18_5.dir/depend
 	$(MAKE) -f list/sequence/CMakeFiles/p18_5.dir/build.make list/sequence/CMakeFiles/p18_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target p18_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target p18_5"
 .PHONY : list/sequence/CMakeFiles/p18_5.dir/all
 
 # Include target in all.
@@ -421,39 +384,39 @@ clean: list/sequence/CMakeFiles/p18_5.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target list/sequence/CMakeFiles/p19_11.dir
+# Target rules for target list/sequence/CMakeFiles/p18_8.dir
 
 # All Build rule for target.
-list/sequence/CMakeFiles/p19_11.dir/all:
-	$(MAKE) -f list/sequence/CMakeFiles/p19_11.dir/build.make list/sequence/CMakeFiles/p19_11.dir/depend
-	$(MAKE) -f list/sequence/CMakeFiles/p19_11.dir/build.make list/sequence/CMakeFiles/p19_11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target p19_11"
-.PHONY : list/sequence/CMakeFiles/p19_11.dir/all
+list/sequence/CMakeFiles/p18_8.dir/all:
+	$(MAKE) -f list/sequence/CMakeFiles/p18_8.dir/build.make list/sequence/CMakeFiles/p18_8.dir/depend
+	$(MAKE) -f list/sequence/CMakeFiles/p18_8.dir/build.make list/sequence/CMakeFiles/p18_8.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target p18_8"
+.PHONY : list/sequence/CMakeFiles/p18_8.dir/all
 
 # Include target in all.
-all: list/sequence/CMakeFiles/p19_11.dir/all
+all: list/sequence/CMakeFiles/p18_8.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-list/sequence/CMakeFiles/p19_11.dir/rule: cmake_check_build_system
+list/sequence/CMakeFiles/p18_8.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p19_11.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 0
-.PHONY : list/sequence/CMakeFiles/p19_11.dir/rule
+.PHONY : list/sequence/CMakeFiles/p18_8.dir/rule
 
 # Convenience name for target.
-p19_11: list/sequence/CMakeFiles/p19_11.dir/rule
+p18_8: list/sequence/CMakeFiles/p18_8.dir/rule
 
-.PHONY : p19_11
-
-# clean rule for target.
-list/sequence/CMakeFiles/p19_11.dir/clean:
-	$(MAKE) -f list/sequence/CMakeFiles/p19_11.dir/build.make list/sequence/CMakeFiles/p19_11.dir/clean
-.PHONY : list/sequence/CMakeFiles/p19_11.dir/clean
+.PHONY : p18_8
 
 # clean rule for target.
-clean: list/sequence/CMakeFiles/p19_11.dir/clean
+list/sequence/CMakeFiles/p18_8.dir/clean:
+	$(MAKE) -f list/sequence/CMakeFiles/p18_8.dir/build.make list/sequence/CMakeFiles/p18_8.dir/clean
+.PHONY : list/sequence/CMakeFiles/p18_8.dir/clean
+
+# clean rule for target.
+clean: list/sequence/CMakeFiles/p18_8.dir/clean
 
 .PHONY : clean
 
@@ -464,7 +427,7 @@ clean: list/sequence/CMakeFiles/p19_11.dir/clean
 list/sequence/CMakeFiles/p18_2.dir/all:
 	$(MAKE) -f list/sequence/CMakeFiles/p18_2.dir/build.make list/sequence/CMakeFiles/p18_2.dir/depend
 	$(MAKE) -f list/sequence/CMakeFiles/p18_2.dir/build.make list/sequence/CMakeFiles/p18_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target p18_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target p18_2"
 .PHONY : list/sequence/CMakeFiles/p18_2.dir/all
 
 # Include target in all.
@@ -495,50 +458,13 @@ clean: list/sequence/CMakeFiles/p18_2.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target list/sequence/CMakeFiles/p19_6.dir
-
-# All Build rule for target.
-list/sequence/CMakeFiles/p19_6.dir/all:
-	$(MAKE) -f list/sequence/CMakeFiles/p19_6.dir/build.make list/sequence/CMakeFiles/p19_6.dir/depend
-	$(MAKE) -f list/sequence/CMakeFiles/p19_6.dir/build.make list/sequence/CMakeFiles/p19_6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target p19_6"
-.PHONY : list/sequence/CMakeFiles/p19_6.dir/all
-
-# Include target in all.
-all: list/sequence/CMakeFiles/p19_6.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-list/sequence/CMakeFiles/p19_6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p19_6.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 0
-.PHONY : list/sequence/CMakeFiles/p19_6.dir/rule
-
-# Convenience name for target.
-p19_6: list/sequence/CMakeFiles/p19_6.dir/rule
-
-.PHONY : p19_6
-
-# clean rule for target.
-list/sequence/CMakeFiles/p19_6.dir/clean:
-	$(MAKE) -f list/sequence/CMakeFiles/p19_6.dir/build.make list/sequence/CMakeFiles/p19_6.dir/clean
-.PHONY : list/sequence/CMakeFiles/p19_6.dir/clean
-
-# clean rule for target.
-clean: list/sequence/CMakeFiles/p19_6.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target list/sequence/CMakeFiles/p18_4.dir
 
 # All Build rule for target.
 list/sequence/CMakeFiles/p18_4.dir/all:
 	$(MAKE) -f list/sequence/CMakeFiles/p18_4.dir/build.make list/sequence/CMakeFiles/p18_4.dir/depend
 	$(MAKE) -f list/sequence/CMakeFiles/p18_4.dir/build.make list/sequence/CMakeFiles/p18_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target p18_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target p18_4"
 .PHONY : list/sequence/CMakeFiles/p18_4.dir/all
 
 # Include target in all.
@@ -569,13 +495,50 @@ clean: list/sequence/CMakeFiles/p18_4.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target list/sequence/CMakeFiles/p18_6.dir
+
+# All Build rule for target.
+list/sequence/CMakeFiles/p18_6.dir/all:
+	$(MAKE) -f list/sequence/CMakeFiles/p18_6.dir/build.make list/sequence/CMakeFiles/p18_6.dir/depend
+	$(MAKE) -f list/sequence/CMakeFiles/p18_6.dir/build.make list/sequence/CMakeFiles/p18_6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target p18_6"
+.PHONY : list/sequence/CMakeFiles/p18_6.dir/all
+
+# Include target in all.
+all: list/sequence/CMakeFiles/p18_6.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+list/sequence/CMakeFiles/p18_6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 0
+.PHONY : list/sequence/CMakeFiles/p18_6.dir/rule
+
+# Convenience name for target.
+p18_6: list/sequence/CMakeFiles/p18_6.dir/rule
+
+.PHONY : p18_6
+
+# clean rule for target.
+list/sequence/CMakeFiles/p18_6.dir/clean:
+	$(MAKE) -f list/sequence/CMakeFiles/p18_6.dir/build.make list/sequence/CMakeFiles/p18_6.dir/clean
+.PHONY : list/sequence/CMakeFiles/p18_6.dir/clean
+
+# clean rule for target.
+clean: list/sequence/CMakeFiles/p18_6.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target list/sequence/CMakeFiles/p18_3.dir
 
 # All Build rule for target.
 list/sequence/CMakeFiles/p18_3.dir/all:
 	$(MAKE) -f list/sequence/CMakeFiles/p18_3.dir/build.make list/sequence/CMakeFiles/p18_3.dir/depend
 	$(MAKE) -f list/sequence/CMakeFiles/p18_3.dir/build.make list/sequence/CMakeFiles/p18_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target p18_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target p18_3"
 .PHONY : list/sequence/CMakeFiles/p18_3.dir/all
 
 # Include target in all.
@@ -606,6 +569,43 @@ clean: list/sequence/CMakeFiles/p18_3.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target list/sequence/CMakeFiles/p18_9.dir
+
+# All Build rule for target.
+list/sequence/CMakeFiles/p18_9.dir/all:
+	$(MAKE) -f list/sequence/CMakeFiles/p18_9.dir/build.make list/sequence/CMakeFiles/p18_9.dir/depend
+	$(MAKE) -f list/sequence/CMakeFiles/p18_9.dir/build.make list/sequence/CMakeFiles/p18_9.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target p18_9"
+.PHONY : list/sequence/CMakeFiles/p18_9.dir/all
+
+# Include target in all.
+all: list/sequence/CMakeFiles/p18_9.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+list/sequence/CMakeFiles/p18_9.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_9.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 0
+.PHONY : list/sequence/CMakeFiles/p18_9.dir/rule
+
+# Convenience name for target.
+p18_9: list/sequence/CMakeFiles/p18_9.dir/rule
+
+.PHONY : p18_9
+
+# clean rule for target.
+list/sequence/CMakeFiles/p18_9.dir/clean:
+	$(MAKE) -f list/sequence/CMakeFiles/p18_9.dir/build.make list/sequence/CMakeFiles/p18_9.dir/clean
+.PHONY : list/sequence/CMakeFiles/p18_9.dir/clean
+
+# clean rule for target.
+clean: list/sequence/CMakeFiles/p18_9.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory STL
 
 # Convenience name for "all" pass in the directory.
@@ -630,7 +630,7 @@ STL/preinstall:
 STL/CMakeFiles/STL.dir/all:
 	$(MAKE) -f STL/CMakeFiles/STL.dir/build.make STL/CMakeFiles/STL.dir/depend
 	$(MAKE) -f STL/CMakeFiles/STL.dir/build.make STL/CMakeFiles/STL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target STL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target STL"
 .PHONY : STL/CMakeFiles/STL.dir/all
 
 # Include target in all.
@@ -640,7 +640,7 @@ all: STL/CMakeFiles/STL.dir/all
 
 # Build rule for subdir invocation for target.
 STL/CMakeFiles/STL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 STL/CMakeFiles/STL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuzilin/data_structure/cmake-build-debug/CMakeFiles 0
 .PHONY : STL/CMakeFiles/STL.dir/rule

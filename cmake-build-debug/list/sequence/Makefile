@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/yuzilin/data_structure/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/Cellar/cmake/3.13.2/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/local/Cellar/cmake/3.13.2/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,94 +111,79 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-list/sequence/CMakeFiles/p19_12.dir/rule:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p19_12.dir/rule
-.PHONY : list/sequence/CMakeFiles/p19_12.dir/rule
+list/sequence/CMakeFiles/p18_13.dir/rule:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_13.dir/rule
+.PHONY : list/sequence/CMakeFiles/p18_13.dir/rule
 
 # Convenience name for target.
-p19_12: list/sequence/CMakeFiles/p19_12.dir/rule
+p18_13: list/sequence/CMakeFiles/p18_13.dir/rule
 
-.PHONY : p19_12
+.PHONY : p18_13
 
 # fast build rule for target.
-p19_12/fast:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_12.dir/build.make list/sequence/CMakeFiles/p19_12.dir/build
-.PHONY : p19_12/fast
+p18_13/fast:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_13.dir/build.make list/sequence/CMakeFiles/p18_13.dir/build
+.PHONY : p18_13/fast
 
 # Convenience name for target.
-list/sequence/CMakeFiles/p19_13.dir/rule:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p19_13.dir/rule
-.PHONY : list/sequence/CMakeFiles/p19_13.dir/rule
+list/sequence/CMakeFiles/p18_12.dir/rule:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_12.dir/rule
+.PHONY : list/sequence/CMakeFiles/p18_12.dir/rule
 
 # Convenience name for target.
-p19_13: list/sequence/CMakeFiles/p19_13.dir/rule
+p18_12: list/sequence/CMakeFiles/p18_12.dir/rule
 
-.PHONY : p19_13
+.PHONY : p18_12
 
 # fast build rule for target.
-p19_13/fast:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_13.dir/build.make list/sequence/CMakeFiles/p19_13.dir/build
-.PHONY : p19_13/fast
+p18_12/fast:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_12.dir/build.make list/sequence/CMakeFiles/p18_12.dir/build
+.PHONY : p18_12/fast
 
 # Convenience name for target.
-list/sequence/CMakeFiles/p19_7.dir/rule:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p19_7.dir/rule
-.PHONY : list/sequence/CMakeFiles/p19_7.dir/rule
+list/sequence/CMakeFiles/p18_11.dir/rule:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_11.dir/rule
+.PHONY : list/sequence/CMakeFiles/p18_11.dir/rule
 
 # Convenience name for target.
-p19_7: list/sequence/CMakeFiles/p19_7.dir/rule
+p18_11: list/sequence/CMakeFiles/p18_11.dir/rule
 
-.PHONY : p19_7
+.PHONY : p18_11
 
 # fast build rule for target.
-p19_7/fast:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_7.dir/build.make list/sequence/CMakeFiles/p19_7.dir/build
-.PHONY : p19_7/fast
+p18_11/fast:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_11.dir/build.make list/sequence/CMakeFiles/p18_11.dir/build
+.PHONY : p18_11/fast
 
 # Convenience name for target.
-list/sequence/CMakeFiles/p19_8.dir/rule:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p19_8.dir/rule
-.PHONY : list/sequence/CMakeFiles/p19_8.dir/rule
+list/sequence/CMakeFiles/p18_10.dir/rule:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_10.dir/rule
+.PHONY : list/sequence/CMakeFiles/p18_10.dir/rule
 
 # Convenience name for target.
-p19_8: list/sequence/CMakeFiles/p19_8.dir/rule
+p18_10: list/sequence/CMakeFiles/p18_10.dir/rule
 
-.PHONY : p19_8
+.PHONY : p18_10
 
 # fast build rule for target.
-p19_8/fast:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_8.dir/build.make list/sequence/CMakeFiles/p19_8.dir/build
-.PHONY : p19_8/fast
+p18_10/fast:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_10.dir/build.make list/sequence/CMakeFiles/p18_10.dir/build
+.PHONY : p18_10/fast
 
 # Convenience name for target.
-list/sequence/CMakeFiles/p19_10.dir/rule:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p19_10.dir/rule
-.PHONY : list/sequence/CMakeFiles/p19_10.dir/rule
+list/sequence/CMakeFiles/p18_7.dir/rule:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_7.dir/rule
+.PHONY : list/sequence/CMakeFiles/p18_7.dir/rule
 
 # Convenience name for target.
-p19_10: list/sequence/CMakeFiles/p19_10.dir/rule
+p18_7: list/sequence/CMakeFiles/p18_7.dir/rule
 
-.PHONY : p19_10
+.PHONY : p18_7
 
 # fast build rule for target.
-p19_10/fast:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_10.dir/build.make list/sequence/CMakeFiles/p19_10.dir/build
-.PHONY : p19_10/fast
-
-# Convenience name for target.
-list/sequence/CMakeFiles/p19_9.dir/rule:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p19_9.dir/rule
-.PHONY : list/sequence/CMakeFiles/p19_9.dir/rule
-
-# Convenience name for target.
-p19_9: list/sequence/CMakeFiles/p19_9.dir/rule
-
-.PHONY : p19_9
-
-# fast build rule for target.
-p19_9/fast:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_9.dir/build.make list/sequence/CMakeFiles/p19_9.dir/build
-.PHONY : p19_9/fast
+p18_7/fast:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_7.dir/build.make list/sequence/CMakeFiles/p18_7.dir/build
+.PHONY : p18_7/fast
 
 # Convenience name for target.
 list/sequence/CMakeFiles/sequence.dir/rule:
@@ -231,19 +216,19 @@ p18_5/fast:
 .PHONY : p18_5/fast
 
 # Convenience name for target.
-list/sequence/CMakeFiles/p19_11.dir/rule:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p19_11.dir/rule
-.PHONY : list/sequence/CMakeFiles/p19_11.dir/rule
+list/sequence/CMakeFiles/p18_8.dir/rule:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_8.dir/rule
+.PHONY : list/sequence/CMakeFiles/p18_8.dir/rule
 
 # Convenience name for target.
-p19_11: list/sequence/CMakeFiles/p19_11.dir/rule
+p18_8: list/sequence/CMakeFiles/p18_8.dir/rule
 
-.PHONY : p19_11
+.PHONY : p18_8
 
 # fast build rule for target.
-p19_11/fast:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_11.dir/build.make list/sequence/CMakeFiles/p19_11.dir/build
-.PHONY : p19_11/fast
+p18_8/fast:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_8.dir/build.make list/sequence/CMakeFiles/p18_8.dir/build
+.PHONY : p18_8/fast
 
 # Convenience name for target.
 list/sequence/CMakeFiles/p18_2.dir/rule:
@@ -261,21 +246,6 @@ p18_2/fast:
 .PHONY : p18_2/fast
 
 # Convenience name for target.
-list/sequence/CMakeFiles/p19_6.dir/rule:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p19_6.dir/rule
-.PHONY : list/sequence/CMakeFiles/p19_6.dir/rule
-
-# Convenience name for target.
-p19_6: list/sequence/CMakeFiles/p19_6.dir/rule
-
-.PHONY : p19_6
-
-# fast build rule for target.
-p19_6/fast:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_6.dir/build.make list/sequence/CMakeFiles/p19_6.dir/build
-.PHONY : p19_6/fast
-
-# Convenience name for target.
 list/sequence/CMakeFiles/p18_4.dir/rule:
 	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_4.dir/rule
 .PHONY : list/sequence/CMakeFiles/p18_4.dir/rule
@@ -291,6 +261,21 @@ p18_4/fast:
 .PHONY : p18_4/fast
 
 # Convenience name for target.
+list/sequence/CMakeFiles/p18_6.dir/rule:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_6.dir/rule
+.PHONY : list/sequence/CMakeFiles/p18_6.dir/rule
+
+# Convenience name for target.
+p18_6: list/sequence/CMakeFiles/p18_6.dir/rule
+
+.PHONY : p18_6
+
+# fast build rule for target.
+p18_6/fast:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_6.dir/build.make list/sequence/CMakeFiles/p18_6.dir/build
+.PHONY : p18_6/fast
+
+# Convenience name for target.
 list/sequence/CMakeFiles/p18_3.dir/rule:
 	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_3.dir/rule
 .PHONY : list/sequence/CMakeFiles/p18_3.dir/rule
@@ -304,6 +289,21 @@ p18_3: list/sequence/CMakeFiles/p18_3.dir/rule
 p18_3/fast:
 	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_3.dir/build.make list/sequence/CMakeFiles/p18_3.dir/build
 .PHONY : p18_3/fast
+
+# Convenience name for target.
+list/sequence/CMakeFiles/p18_9.dir/rule:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 list/sequence/CMakeFiles/p18_9.dir/rule
+.PHONY : list/sequence/CMakeFiles/p18_9.dir/rule
+
+# Convenience name for target.
+p18_9: list/sequence/CMakeFiles/p18_9.dir/rule
+
+.PHONY : p18_9
+
+# fast build rule for target.
+p18_9/fast:
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_9.dir/build.make list/sequence/CMakeFiles/p18_9.dir/build
+.PHONY : p18_9/fast
 
 p18_1.o: p18_1.cpp.o
 
@@ -338,7 +338,7 @@ p18_10.o: p18_10.cpp.o
 
 # target to build an object file
 p18_10.cpp.o:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_10.dir/build.make list/sequence/CMakeFiles/p19_10.dir/p18_10.cpp.o
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_10.dir/build.make list/sequence/CMakeFiles/p18_10.dir/p18_10.cpp.o
 .PHONY : p18_10.cpp.o
 
 p18_10.i: p18_10.cpp.i
@@ -347,7 +347,7 @@ p18_10.i: p18_10.cpp.i
 
 # target to preprocess a source file
 p18_10.cpp.i:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_10.dir/build.make list/sequence/CMakeFiles/p19_10.dir/p18_10.cpp.i
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_10.dir/build.make list/sequence/CMakeFiles/p18_10.dir/p18_10.cpp.i
 .PHONY : p18_10.cpp.i
 
 p18_10.s: p18_10.cpp.s
@@ -356,7 +356,7 @@ p18_10.s: p18_10.cpp.s
 
 # target to generate assembly for a file
 p18_10.cpp.s:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_10.dir/build.make list/sequence/CMakeFiles/p19_10.dir/p18_10.cpp.s
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_10.dir/build.make list/sequence/CMakeFiles/p18_10.dir/p18_10.cpp.s
 .PHONY : p18_10.cpp.s
 
 p18_11.o: p18_11.cpp.o
@@ -365,7 +365,7 @@ p18_11.o: p18_11.cpp.o
 
 # target to build an object file
 p18_11.cpp.o:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_11.dir/build.make list/sequence/CMakeFiles/p19_11.dir/p18_11.cpp.o
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_11.dir/build.make list/sequence/CMakeFiles/p18_11.dir/p18_11.cpp.o
 .PHONY : p18_11.cpp.o
 
 p18_11.i: p18_11.cpp.i
@@ -374,7 +374,7 @@ p18_11.i: p18_11.cpp.i
 
 # target to preprocess a source file
 p18_11.cpp.i:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_11.dir/build.make list/sequence/CMakeFiles/p19_11.dir/p18_11.cpp.i
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_11.dir/build.make list/sequence/CMakeFiles/p18_11.dir/p18_11.cpp.i
 .PHONY : p18_11.cpp.i
 
 p18_11.s: p18_11.cpp.s
@@ -383,7 +383,7 @@ p18_11.s: p18_11.cpp.s
 
 # target to generate assembly for a file
 p18_11.cpp.s:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_11.dir/build.make list/sequence/CMakeFiles/p19_11.dir/p18_11.cpp.s
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_11.dir/build.make list/sequence/CMakeFiles/p18_11.dir/p18_11.cpp.s
 .PHONY : p18_11.cpp.s
 
 p18_12.o: p18_12.cpp.o
@@ -392,7 +392,7 @@ p18_12.o: p18_12.cpp.o
 
 # target to build an object file
 p18_12.cpp.o:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_12.dir/build.make list/sequence/CMakeFiles/p19_12.dir/p18_12.cpp.o
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_12.dir/build.make list/sequence/CMakeFiles/p18_12.dir/p18_12.cpp.o
 .PHONY : p18_12.cpp.o
 
 p18_12.i: p18_12.cpp.i
@@ -401,7 +401,7 @@ p18_12.i: p18_12.cpp.i
 
 # target to preprocess a source file
 p18_12.cpp.i:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_12.dir/build.make list/sequence/CMakeFiles/p19_12.dir/p18_12.cpp.i
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_12.dir/build.make list/sequence/CMakeFiles/p18_12.dir/p18_12.cpp.i
 .PHONY : p18_12.cpp.i
 
 p18_12.s: p18_12.cpp.s
@@ -410,7 +410,7 @@ p18_12.s: p18_12.cpp.s
 
 # target to generate assembly for a file
 p18_12.cpp.s:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_12.dir/build.make list/sequence/CMakeFiles/p19_12.dir/p18_12.cpp.s
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_12.dir/build.make list/sequence/CMakeFiles/p18_12.dir/p18_12.cpp.s
 .PHONY : p18_12.cpp.s
 
 p18_13.o: p18_13.cpp.o
@@ -419,7 +419,7 @@ p18_13.o: p18_13.cpp.o
 
 # target to build an object file
 p18_13.cpp.o:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_13.dir/build.make list/sequence/CMakeFiles/p19_13.dir/p18_13.cpp.o
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_13.dir/build.make list/sequence/CMakeFiles/p18_13.dir/p18_13.cpp.o
 .PHONY : p18_13.cpp.o
 
 p18_13.i: p18_13.cpp.i
@@ -428,7 +428,7 @@ p18_13.i: p18_13.cpp.i
 
 # target to preprocess a source file
 p18_13.cpp.i:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_13.dir/build.make list/sequence/CMakeFiles/p19_13.dir/p18_13.cpp.i
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_13.dir/build.make list/sequence/CMakeFiles/p18_13.dir/p18_13.cpp.i
 .PHONY : p18_13.cpp.i
 
 p18_13.s: p18_13.cpp.s
@@ -437,7 +437,7 @@ p18_13.s: p18_13.cpp.s
 
 # target to generate assembly for a file
 p18_13.cpp.s:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_13.dir/build.make list/sequence/CMakeFiles/p19_13.dir/p18_13.cpp.s
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_13.dir/build.make list/sequence/CMakeFiles/p18_13.dir/p18_13.cpp.s
 .PHONY : p18_13.cpp.s
 
 p18_2.o: p18_2.cpp.o
@@ -554,7 +554,7 @@ p18_6.o: p18_6.cpp.o
 
 # target to build an object file
 p18_6.cpp.o:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_6.dir/build.make list/sequence/CMakeFiles/p19_6.dir/p18_6.cpp.o
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_6.dir/build.make list/sequence/CMakeFiles/p18_6.dir/p18_6.cpp.o
 .PHONY : p18_6.cpp.o
 
 p18_6.i: p18_6.cpp.i
@@ -563,7 +563,7 @@ p18_6.i: p18_6.cpp.i
 
 # target to preprocess a source file
 p18_6.cpp.i:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_6.dir/build.make list/sequence/CMakeFiles/p19_6.dir/p18_6.cpp.i
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_6.dir/build.make list/sequence/CMakeFiles/p18_6.dir/p18_6.cpp.i
 .PHONY : p18_6.cpp.i
 
 p18_6.s: p18_6.cpp.s
@@ -572,7 +572,7 @@ p18_6.s: p18_6.cpp.s
 
 # target to generate assembly for a file
 p18_6.cpp.s:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_6.dir/build.make list/sequence/CMakeFiles/p19_6.dir/p18_6.cpp.s
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_6.dir/build.make list/sequence/CMakeFiles/p18_6.dir/p18_6.cpp.s
 .PHONY : p18_6.cpp.s
 
 p18_7.o: p18_7.cpp.o
@@ -581,7 +581,7 @@ p18_7.o: p18_7.cpp.o
 
 # target to build an object file
 p18_7.cpp.o:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_7.dir/build.make list/sequence/CMakeFiles/p19_7.dir/p18_7.cpp.o
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_7.dir/build.make list/sequence/CMakeFiles/p18_7.dir/p18_7.cpp.o
 .PHONY : p18_7.cpp.o
 
 p18_7.i: p18_7.cpp.i
@@ -590,7 +590,7 @@ p18_7.i: p18_7.cpp.i
 
 # target to preprocess a source file
 p18_7.cpp.i:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_7.dir/build.make list/sequence/CMakeFiles/p19_7.dir/p18_7.cpp.i
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_7.dir/build.make list/sequence/CMakeFiles/p18_7.dir/p18_7.cpp.i
 .PHONY : p18_7.cpp.i
 
 p18_7.s: p18_7.cpp.s
@@ -599,7 +599,7 @@ p18_7.s: p18_7.cpp.s
 
 # target to generate assembly for a file
 p18_7.cpp.s:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_7.dir/build.make list/sequence/CMakeFiles/p19_7.dir/p18_7.cpp.s
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_7.dir/build.make list/sequence/CMakeFiles/p18_7.dir/p18_7.cpp.s
 .PHONY : p18_7.cpp.s
 
 p18_8.o: p18_8.cpp.o
@@ -608,7 +608,7 @@ p18_8.o: p18_8.cpp.o
 
 # target to build an object file
 p18_8.cpp.o:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_8.dir/build.make list/sequence/CMakeFiles/p19_8.dir/p18_8.cpp.o
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_8.dir/build.make list/sequence/CMakeFiles/p18_8.dir/p18_8.cpp.o
 .PHONY : p18_8.cpp.o
 
 p18_8.i: p18_8.cpp.i
@@ -617,7 +617,7 @@ p18_8.i: p18_8.cpp.i
 
 # target to preprocess a source file
 p18_8.cpp.i:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_8.dir/build.make list/sequence/CMakeFiles/p19_8.dir/p18_8.cpp.i
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_8.dir/build.make list/sequence/CMakeFiles/p18_8.dir/p18_8.cpp.i
 .PHONY : p18_8.cpp.i
 
 p18_8.s: p18_8.cpp.s
@@ -626,7 +626,7 @@ p18_8.s: p18_8.cpp.s
 
 # target to generate assembly for a file
 p18_8.cpp.s:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_8.dir/build.make list/sequence/CMakeFiles/p19_8.dir/p18_8.cpp.s
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_8.dir/build.make list/sequence/CMakeFiles/p18_8.dir/p18_8.cpp.s
 .PHONY : p18_8.cpp.s
 
 p18_9.o: p18_9.cpp.o
@@ -635,7 +635,7 @@ p18_9.o: p18_9.cpp.o
 
 # target to build an object file
 p18_9.cpp.o:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_9.dir/build.make list/sequence/CMakeFiles/p19_9.dir/p18_9.cpp.o
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_9.dir/build.make list/sequence/CMakeFiles/p18_9.dir/p18_9.cpp.o
 .PHONY : p18_9.cpp.o
 
 p18_9.i: p18_9.cpp.i
@@ -644,7 +644,7 @@ p18_9.i: p18_9.cpp.i
 
 # target to preprocess a source file
 p18_9.cpp.i:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_9.dir/build.make list/sequence/CMakeFiles/p19_9.dir/p18_9.cpp.i
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_9.dir/build.make list/sequence/CMakeFiles/p18_9.dir/p18_9.cpp.i
 .PHONY : p18_9.cpp.i
 
 p18_9.s: p18_9.cpp.s
@@ -653,7 +653,7 @@ p18_9.s: p18_9.cpp.s
 
 # target to generate assembly for a file
 p18_9.cpp.s:
-	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p19_9.dir/build.make list/sequence/CMakeFiles/p19_9.dir/p18_9.cpp.s
+	cd /Users/yuzilin/data_structure/cmake-build-debug && $(MAKE) -f list/sequence/CMakeFiles/p18_9.dir/build.make list/sequence/CMakeFiles/p18_9.dir/p18_9.cpp.s
 .PHONY : p18_9.cpp.s
 
 # Help Target
@@ -662,21 +662,21 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... p18_13"
+	@echo "... edit_cache"
+	@echo "... p18_12"
 	@echo "... rebuild_cache"
-	@echo "... p19_12"
-	@echo "... p19_13"
-	@echo "... p19_7"
-	@echo "... p19_8"
-	@echo "... p19_10"
-	@echo "... p19_9"
+	@echo "... p18_11"
+	@echo "... p18_10"
+	@echo "... p18_7"
 	@echo "... sequence"
 	@echo "... p18_5"
-	@echo "... p19_11"
+	@echo "... p18_8"
 	@echo "... p18_2"
-	@echo "... edit_cache"
-	@echo "... p19_6"
 	@echo "... p18_4"
+	@echo "... p18_6"
 	@echo "... p18_3"
+	@echo "... p18_9"
 	@echo "... p18_1.o"
 	@echo "... p18_1.i"
 	@echo "... p18_1.s"
