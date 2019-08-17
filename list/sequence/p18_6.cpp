@@ -28,7 +28,7 @@ int main()
 {
     List l;
     init(l, num);
-    filldata(l, num);l
+    filldata(l, num);
     std::sort(l.data, l.data+num);
     show(l);
     delete_repete(l);

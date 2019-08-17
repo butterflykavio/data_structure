@@ -2,20 +2,42 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Data_Structure" targetName="STL" />
-      <config projectName="Data_Structure" targetName="p18_4" />
-      <config projectName="Data_Structure" targetName="p18_5" />
-      <config projectName="Data_Structure" targetName="p18_6" />
-      <config projectName="Data_Structure" targetName="sequence" />
-      <config projectName="Data_Structure" targetName="p18_9" />
+      <config projectName="Data_Structure" targetName="link_list" />
       <config projectName="Data_Structure" targetName="p18_8" />
-      <config projectName="Data_Structure" targetName="p18_7" />
+      <config projectName="Data_Structure" targetName="p18_9" />
       <config projectName="Data_Structure" targetName="p18_13" />
+      <config projectName="Data_Structure" targetName="sequence" />
+      <config projectName="Data_Structure" targetName="p18_6" />
+      <config projectName="Data_Structure" targetName="p38_9" />
+      <config projectName="Data_Structure" targetName="p38_21" />
+      <config projectName="Data_Structure" targetName="p18_7" />
+      <config projectName="Data_Structure" targetName="p38_8" />
+      <config projectName="Data_Structure" targetName="p38_20" />
+      <config projectName="Data_Structure" targetName="p18_10" />
+      <config projectName="Data_Structure" targetName="p38_23" />
+      <config projectName="Data_Structure" targetName="p38_22" />
       <config projectName="Data_Structure" targetName="p18_12" />
       <config projectName="Data_Structure" targetName="p18_11" />
-      <config projectName="Data_Structure" targetName="p18_10" />
+      <config projectName="Data_Structure" targetName="p38_3" />
+      <config projectName="Data_Structure" targetName="p38_2" />
+      <config projectName="Data_Structure" targetName="p18_4" />
+      <config projectName="Data_Structure" targetName="p38_7" />
+      <config projectName="Data_Structure" targetName="p18_5" />
+      <config projectName="Data_Structure" targetName="p38_6" />
       <config projectName="Data_Structure" targetName="p18_2" />
+      <config projectName="Data_Structure" targetName="p38_5" />
+      <config projectName="Data_Structure" targetName="STL" />
       <config projectName="Data_Structure" targetName="p18_3" />
+      <config projectName="Data_Structure" targetName="p38_4" />
+      <config projectName="Data_Structure" targetName="p38_10" />
+      <config projectName="Data_Structure" targetName="p38_12" />
+      <config projectName="Data_Structure" targetName="p38_11" />
+      <config projectName="Data_Structure" targetName="p38_14" />
+      <config projectName="Data_Structure" targetName="p38_13" />
+      <config projectName="Data_Structure" targetName="p38_16" />
+      <config projectName="Data_Structure" targetName="p38_15" />
+      <config projectName="Data_Structure" targetName="p38_18" />
+      <config projectName="Data_Structure" targetName="p38_17" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -25,30 +47,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a15c4147-a75b-4582-b32b-1f164b129d5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/list/link_list/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list/link_list/p38_1.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/STL/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL/link_list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/STL/link_list.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Data_Structure.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Data_Structure.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STL/CMakeFiles/STL.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STL/CMakeFiles/STL.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STL/CMakeFiles/STL.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STL/CMakeFiles/STL.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STL/CMakeFiles/STL.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STL/CMakeFiles/STL.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STL/libSTL.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STL/libSTL.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/list.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/list.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_10.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_10.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_10.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_10.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_11.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_11.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_12.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_12.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_13.dir/p18_13.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_13.dir/p18_13.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_13.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_13.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_2.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_2.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_3.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_3.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_4.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_4.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_5.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_5.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p19_7.dir/p18_7.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p19_7.dir/p18_7.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p19_7" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p19_7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_6.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_6.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_6.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_6.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_7.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_7.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_8.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_8.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_9.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/p18_9.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/sequence.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/CMakeFiles/sequence.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_10" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_11" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_12" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_13" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_13" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_3" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_4" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_5" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_7" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_8" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_9" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/p18_9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/sequence" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/sequence" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/list/sequence/sequence.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/list/sequence/sequence.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/sequence/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/list/sequence/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/sequence/p18_10.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/list/sequence/p18_10.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/sequence/p18_11.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/list/sequence/p18_11.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/sequence/p18_12.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/list/sequence/p18_12.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/list/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/list/sequence/p18_13.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/list/sequence/p18_13.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/list/sequence/p18_6.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/list/sequence/p18_6.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/sequence/p18_7.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/list/sequence/p18_7.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/sequence/p18_8.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/list/sequence/p18_8.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/sequence/p18_9.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/list/sequence/p18_9.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,101 +113,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/STL/sequence.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/sequence/p18_6.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="240">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#199#232#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/sequence/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/STL/link_list.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/sequence/p18_7.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state relative-caret-position="407">
+              <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
               <folding>
-                <element signature="e#41#74#0" expanded="true" />
+                <element signature="e#40#58#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/sequence/p18_8.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/sequence/p18_9.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
-              <folding>
-                <element signature="e#40#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/sequence/p18_10.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/sequence/p18_11.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="e#40#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/sequence/p18_12.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/list/sequence/p18_13.cpp">
+        <entry file="file://$PROJECT_DIR$/list/link_list/p38_2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="165">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="e#40#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list/link_list/p38_1.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#40#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list/link_list/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -183,28 +188,32 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/STL/model.cpp" />
-        <option value="$PROJECT_DIR$/STL/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/list/sequence/main.cpp" />
         <option value="$PROJECT_DIR$/STL/sequence.cpp" />
         <option value="$PROJECT_DIR$/list/sequence/p18_1.cpp" />
         <option value="$PROJECT_DIR$/list/sequence/model.cpp" />
-        <option value="$PROJECT_DIR$/list/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/list/sequence/p18_2.cpp" />
         <option value="$PROJECT_DIR$/list/sequence/18_3.cpp" />
         <option value="$PROJECT_DIR$/list/sequence/p18_3.cpp" />
         <option value="$PROJECT_DIR$/list/sequence/p18_4.cpp" />
         <option value="$PROJECT_DIR$/list/sequence/p18_5.cpp" />
-        <option value="$PROJECT_DIR$/list/sequence/p18_6.cpp" />
-        <option value="$PROJECT_DIR$/list/sequence/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/list/sequence/p18_7.cpp" />
         <option value="$PROJECT_DIR$/list/sequence/p18_8.cpp" />
         <option value="$PROJECT_DIR$/list/sequence/p18_9.cpp" />
         <option value="$PROJECT_DIR$/list/sequence/p18_10.cpp" />
         <option value="$PROJECT_DIR$/list/sequence/p18_11.cpp" />
         <option value="$PROJECT_DIR$/list/sequence/p18_12.cpp" />
+        <option value="$PROJECT_DIR$/STL/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/list/sequence/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/list/sequence/p18_6.cpp" />
         <option value="$PROJECT_DIR$/list/sequence/p18_13.cpp" />
+        <option value="$PROJECT_DIR$/list/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/list/link_list/p38_1.cpp" />
+        <option value="$PROJECT_DIR$/STL/link_list.cpp" />
+        <option value="$PROJECT_DIR$/list/link_list/p38_2.cpp" />
+        <option value="$PROJECT_DIR$/list/link_list/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -217,6 +226,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,7 +243,7 @@
               <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
               <item name="list" type="462c0819:PsiDirectoryNode" />
-              <item name="sequence" type="462c0819:PsiDirectoryNode" />
+              <item name="link_list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Data_Structure" type="b2602c69:ProjectViewProjectNode" />
@@ -248,7 +258,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,8 +285,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.p18_13">
+  <component name="RunManager" selected="Application.link_list">
     <configuration name="STL" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="STL" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="link_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="link_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="link_list">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -342,12 +356,139 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="p38_10" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_10">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_11" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_11" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_11">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_12" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_12">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_13" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_13" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_13">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_14" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_14" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_14">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_15" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_15" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_15">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_16" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_16" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_16">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_17" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_17" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_17">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_18" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_18" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_18">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_20" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_20" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_20">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_21" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_21" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_21">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_22" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_22" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_22">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_23" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_23" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_23">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_5">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_6">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_7" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_7">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_8" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_8">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p38_9" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="p38_9" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="p38_9">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sequence" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structure" TARGET_NAME="sequence" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Data_Structure" RUN_TARGET_NAME="sequence">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.link_list" />
+      <item itemvalue="Application.p38_10" />
+      <item itemvalue="Application.p38_11" />
+      <item itemvalue="Application.p38_12" />
+      <item itemvalue="Application.p38_13" />
+      <item itemvalue="Application.p38_14" />
+      <item itemvalue="Application.p38_15" />
+      <item itemvalue="Application.p38_16" />
+      <item itemvalue="Application.p38_17" />
+      <item itemvalue="Application.p38_18" />
+      <item itemvalue="Application.p38_2" />
+      <item itemvalue="Application.p38_20" />
+      <item itemvalue="Application.p38_21" />
+      <item itemvalue="Application.p38_22" />
+      <item itemvalue="Application.p38_23" />
+      <item itemvalue="Application.p38_3" />
+      <item itemvalue="Application.p38_4" />
+      <item itemvalue="Application.p38_5" />
+      <item itemvalue="Application.p38_6" />
+      <item itemvalue="Application.p38_7" />
+      <item itemvalue="Application.p38_8" />
+      <item itemvalue="Application.p38_9" />
       <item itemvalue="Application.p18_10" />
       <item itemvalue="Application.p18_11" />
       <item itemvalue="Application.p18_12" />
@@ -375,18 +516,20 @@
       <option name="presentableId" value="Default" />
       <updated>1565529187567</updated>
       <workItem from="1565529190269" duration="13725000" />
-      <workItem from="1565576292120" duration="6446000" />
+      <workItem from="1565576292120" duration="13145000" />
+      <workItem from="1566052225969" duration="1202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20171000" />
+    <option name="totallyTimeSpent" value="28072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15995117" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16178267" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32959184" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -396,7 +539,7 @@
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="8" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="CMake" order="10" weight="0.32959184" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -407,29 +550,6 @@
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15811966" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="0" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32959184" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" order="10" weight="0.32959184" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Remote Host" order="2" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -444,8 +564,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/list/sequence/p18_13.cpp</url>
-          <line>18</line>
-          <option name="timeStamp" value="4" />
+          <line>11</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/list/link_list/p38_1.cpp</url>
+          <line>14</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -503,34 +628,6 @@
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/STL/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/sequence/p18_1.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/sequence/p18_3.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -552,37 +649,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/sequence/p18_4.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding>
-            <element signature="e#40#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/sequence/p18_5.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/sequence/p18_6.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#199#232#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/sequence/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -620,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/STL/sequence.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/sequence/p18_11.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -644,10 +707,109 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/STL/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/sequence/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/sequence/p18_6.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/sequence/p18_4.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="e#40#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/sequence/p18_1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/list/sequence/p18_13.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="370">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STL/sequence.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STL/link_list.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/link_list/p38_1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/link_list/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/link_list/p38_2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#40#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

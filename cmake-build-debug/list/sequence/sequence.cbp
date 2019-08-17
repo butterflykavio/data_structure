@@ -5,7 +5,7 @@
 		<Option title="sequence"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\list\;CMake Files\list\sequence\;CMake Files\STL\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\list\;CMake Files\list\sequence\;CMake Files\list\link_list\;CMake Files\STL\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/yuzilin/data_structure/cmake-build-debug/list/sequence"/>
@@ -611,6 +611,9 @@
 		</Unit>
 		<Unit filename="/Users/yuzilin/data_structure/list/sequence/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\list\sequence\"/>
+		</Unit>
+		<Unit filename="/Users/yuzilin/data_structure/list/link_list/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\list\link_list\"/>
 		</Unit>
 		<Unit filename="/Users/yuzilin/data_structure/STL/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\STL\"/>

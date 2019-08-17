@@ -6,17 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/Users/yuzilin/data_structure/STL/sequence.cpp
-stdio.h
--
-stdlib.h
--
-string.h
--
-time.h
--
-
-/Users/yuzilin/data_structure/list/sequence/p18_10.cpp
-../../STL/sequence.cpp
-/Users/yuzilin/data_structure/STL/sequence.cpp
-

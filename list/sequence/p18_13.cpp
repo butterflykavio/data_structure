@@ -23,6 +23,7 @@ int find_min_int(List l)
             return i;
         }
     }
+    return -1;
 }
 int main()
 {
